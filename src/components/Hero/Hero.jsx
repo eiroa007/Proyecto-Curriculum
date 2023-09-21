@@ -1,8 +1,9 @@
 import "./Hero.css";
 
-const Hero = (¨{hero}) => {
-  return
-  <div className="hero">
+const Hero = ({hero}) => {
+  return (
+ 
+ <div className="hero">
 <img src={hero.image} alt={hero.name} />
 <div className="card">
 <h2>
@@ -10,15 +11,18 @@ const Hero = (¨{hero}) => {
 </h2>
 <p>🗺{hero.city} </p>
 <p>🗓{hero.birthDate}</p>
-<p>📧
+<p>
+  📧
 <a href={"mailto:" + hero.email}>
 tony@starkindustries.com
 </a>
 </p>
 <p>📱 {hero.phone}</p>
-<p>💾<a href={hero.gitHub}>
+<p>
+  💾<a href={hero.gitHub}>
 GitHub
-</a></p>
+</a>
+</p>
 </div>
 </div>
 );

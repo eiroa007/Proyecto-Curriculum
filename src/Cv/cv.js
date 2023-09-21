@@ -1,12 +1,12 @@
 export const CV = {
     hero: {
-      name: "Anthony",
-      surname: "Edward Stark",
-      city: "Avengers Tower / New York",
-      email: "tony@starkindustries.com",
-      birthDate: "29/05/1970",
-      image: "https://i.imgur.com/ZQAkED3.png",
-      gitHub: "https://github.com/tonystark",
+      name: "Javier",
+      surname: "Eiroa Fortes",
+      city: "Spain from Madrid / Ciempozuelos",
+      email: "eiroa007@gmail.com/jfche007@gmail.com",
+      birthDate: "08/02/1976",
+      image: "https://avatars.githubusercontent.com/u/135691454?v=4",
+      gitHub: "https://github.com/eiroa007",
       aboutMe: [
         {
           info: "🤖 My armor, it was never a distraction or a hobby, it was a cocoon. I am Iron Man.",

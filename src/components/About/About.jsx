@@ -1,9 +1,16 @@
 import "./About.css";  
 
-const About = () => {
+const About = ({ hero }) => {
   return (
-    <div>About</div>;
-  )
-}
+    <div>
 
-export default About
+      {hero.aboutMe.map((item) => (
+       <div key={JSON.stringify(item)}>
+        <p Key={item.info}>{item.info}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default About;

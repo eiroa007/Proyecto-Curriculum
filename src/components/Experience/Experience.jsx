@@ -1,9 +1,29 @@
 import "./Experience.css";
 
-const Experience = () => {
+const Experience = ({ experience }) => {
   return (
-    <div>Experience</div>;
-  )
-}
+  
+    <div>
+      {experience.map((item) => (
+        <div key={JSON.stringify(item)}>
+          <p>🧳{item.name}</p>
+          <p>{item.date}</p>
+          <p>{item.where}</p>
+          <p>{item.description}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
 
-export default Experience
+export default Experience;
+  
+      
+      
+      
+      
+      
+      
+      
+      
+
